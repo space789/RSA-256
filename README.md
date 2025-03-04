@@ -31,8 +31,8 @@ This project implements a 256-bit RSA encryption and decryption system using har
 ### Setup Instructions
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-username/RSA-256-FPGA.git
-   cd RSA-256-FPGA
+   git clone https://github.com/space789/RSA-256
+   cd RSA-256
    ```
 2. **Synthesize and Implement in Vivado**:
    - Open Vivado and import the project files.
@@ -40,23 +40,6 @@ This project implements a 256-bit RSA encryption and decryption system using har
 3. **Upload to PYNQ-Z2**:
    - Load the bitstream onto the FPGA.
    - Use Python scripts to interface with the FPGA for encryption/decryption.
-
-## Usage
-### Key Generation
-Use the provided Python script to generate RSA keys:
-```sh
-python keygen.py
-```
-
-### Encryption
-```sh
-python encrypt.py --message "Hello, FPGA!"
-```
-
-### Decryption
-```sh
-python decrypt.py --cipher "output_ciphertext.txt"
-```
 
 ## Simulation & Verification
 ### Pre-Simulation Testing
